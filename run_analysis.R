@@ -36,7 +36,7 @@ run_analysis <- function(){
         grouped<-group_by(allData, Activity, SubjectID)
         meansByActandSub<-summarize_each(grouped, funs(mean))
         if(!file.exists("summaryData.txt")){
-                write.table(meansByActandSub, "summaryData.txt")
+                write.table(meansByActandSub, "summaryData.txt" row.names = FALSE)
         }
 }
 
