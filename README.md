@@ -6,13 +6,13 @@ This repo contains four files
 * run_analysis.R  The r function that loads the data into R, manipulates the data, and writes the
 clean dataset to a text file.  
 
-*Codebook.md  This markdown file defines the variables in the outputted clean data file, "summaryData.txt"
+* Codebook.md  This markdown file defines the variables in the outputted clean data file, "summaryData.txt"
 
-*summaryData.txt  This file contains the clean data set.  It contains the means of all feature variables
+* summaryData.txt  This file contains the clean data set.  It contains the means of all feature variables
 with respect to subject and activity type. Note:  The data is not easily viewed in a text editor, so it is
 recommended that it be read into R using read.table("./summaryData.txt")
 
-*README.md  Read me markdowm file defining files in the repo, and explaining what the R function does
+* README.md  Read me markdowm file defining files in the repo, and explaining what the R function does
 
 ### Description of run_analysis.R
 
