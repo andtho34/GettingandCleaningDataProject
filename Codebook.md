@@ -17,6 +17,7 @@ A few notes on interpreting the names:
 * t refers to time-domain data
 * f refers to frequency domain data
 * X, Y, and Z refer to the different axes, as this was a triaxial test
+* Acceleration units are in g's
 * For specific details on the feature defintions, see features_info.txt in the 
 original HAR dataset
 
